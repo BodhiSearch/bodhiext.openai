@@ -1,4 +1,6 @@
-.env
+!.env.sample
+!.env.ci
+.env.*
 .vscode
 .idea
 .python-version

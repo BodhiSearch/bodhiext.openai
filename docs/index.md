@@ -6,7 +6,7 @@ Welcome to Bodhilib OpenAI plugin's documentation!
 :hidden:
 
 installation
-reference/modules
+reference/bodhiext.openai.rst
 ```
 
 Bodhilib OpenAI plugin is a plugin for [bodhilib](https://github.com/bodhisearch/bodhilib) library. It adds the capability to Bodhilib plugin for OpenAI APIs

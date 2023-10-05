@@ -36,7 +36,10 @@ source_suffix = [".rst", ".md", ".ipynb", ".myst"]
 master_doc = "index"
 pygments_style = "sphinx"
 todo_include_todos = False
-
+nitpick_ignore = [
+    ("py:class", "SupportsText"),
+    ("py:func", "bodhilib.LLM.generate")
+]
 # -- Options for HTML output -------------------------------------------
 html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
@@ -50,6 +53,7 @@ autodoc_default_options = {
     "mock_imports": ["pydantic"],
     "members": True,
 }
+autodoc_type_aliases = {"SupportsText": "SupportsText"}
 autoclass_content = "both"
 html_theme_options = {
     "collapse_navigation": False,
