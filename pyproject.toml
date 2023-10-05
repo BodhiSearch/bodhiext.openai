@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bodhiext.openai"
-version = "0.1.0"
+version = "0.1.1"
 description = "Bodhilib plugin for OpenAI APIs"
 authors = []
 readme = "README.md"
