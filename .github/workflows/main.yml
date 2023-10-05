@@ -1,4 +1,4 @@
-name: {{ cookiecutter.project_name }} CI/CD
+name: bodhiext OpenAI plugin CI/CD
 
 on:
   pull_request:
